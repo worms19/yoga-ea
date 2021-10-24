@@ -4,14 +4,17 @@
     <span class="name-box">
       Ea Bla Yoga
     </span>
-    <div class="menu-box">
+    <span class="name-box-2">
+      J'arrive Bientôt
+    </span>
+    <!-- <div class="menu-box">
       <div class="menu-items">
         <v-btn>Menu 1</v-btn>
         <v-btn>Menu 2</v-btn>
         <v-btn>Menu 3</v-btn>
         <v-btn>Menu 4</v-btn>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -21,11 +24,20 @@
   color: white;
   display: grid;
   grid-template-columns: 33.3vw 33.3vw 33.3vw;
-  grid-template-rows: 16.6vh 16.6vh 16.6vh 16.6vh 16.6vh 16.6vh;
+  grid-template-rows: repeat(10, 10vh);
 }
 .name-box {
   grid-column: 2 / 3;
-  grid-row: 5 / 7;
+  grid-row: 4 / 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Architects Daughter", cursive;
+  font-size: 50px;
+}
+.name-box-2 {
+  grid-column: 2 / 3;
+  grid-row: 6 / 8;
   display: flex;
   align-items: center;
   justify-content: center;

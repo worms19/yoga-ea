@@ -10,7 +10,7 @@ export default Vue.extend({});
 
 <style>
 html {
-  background: url(static/236261430_401501761396117_6121646498851519330_n.jpeg)
+  background: url(static/244769960_1069557090250111_7575134760696829213_n.jpeg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
